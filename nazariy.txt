@@ -1,0 +1,24 @@
+Mavzu: GitHub
+reja
+    Git -> git bu commandaga ega service! commandaga ega bo'lgan service!
+    github -> project saqlanadigan , jamoviy ishlanadigan muhim platforma
+    .env -> secret data larni saqlab turadigan mahsus file! Bot_Token , DB_Host , DB_password
+    .gitignore -> github platformasiga jonatilmaydigan file , papka ro'yhati  mahsus file
+
+    push -> github ga proyektni yuborish , yangilash amalini bajaradigan muhim komanda
+    pull -> githubdagi projectni olish , va o'zimizda update qilish mumkin boladigan muhim komonda
+    commit -> bizda bor projectni github ga joylab , joylanganda keyingi holatda biz project qandaydur codelar
+    qo'shadigan bo'lsak ular commit komondasi orqali pushga tayyorlaymiz
+
+
+Git -> service
+hub -> bu joy()
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/abduraxmonovazizjontecno-gif/New_git_bot.git
+git push -u origin main
+git remote add origin https://github.com/username/repository.git
